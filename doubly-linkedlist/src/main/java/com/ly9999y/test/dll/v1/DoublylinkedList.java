@@ -171,5 +171,4 @@ public class DoublylinkedList<T> {
 		return stringBuffer.toString();
 	}
 
-
 }
