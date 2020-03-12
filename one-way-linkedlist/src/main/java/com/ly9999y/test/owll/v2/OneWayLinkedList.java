@@ -1,4 +1,4 @@
-package com.ly9999y.test.owllv2;
+package com.ly9999y.test.owll.v2;
 
 public class OneWayLinkedList<T> {
 

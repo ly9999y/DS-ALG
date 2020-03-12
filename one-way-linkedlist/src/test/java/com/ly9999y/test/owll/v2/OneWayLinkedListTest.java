@@ -1,4 +1,4 @@
-package com.ly9999y.test.owllv1;
+package com.ly9999y.test.owll.v2;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -11,13 +11,12 @@ public class OneWayLinkedListTest {
 
 	@Before
 	public void init() {
-		oneWayLinkedList = new OneWayLinkedList<>();
+		oneWayLinkedList = new OneWayLinkedList<Integer>();
 		Random random = new Random();
 		final int size = random.nextInt(10) + 5;
 
 		for (int i = 0; i < size; i++) {
-			ListNode<Integer> integerListNode = new ListNode<>(random.nextInt(100));
-			oneWayLinkedList.append(integerListNode);
+			oneWayLinkedList.append(random.nextInt(100));
 		}
 	}
 
@@ -29,7 +28,7 @@ public class OneWayLinkedListTest {
 	@Test
 	public void testAppend() {
 		oneWayLinkedList.display();
-		oneWayLinkedList.append(new ListNode<Integer>(100));
+		oneWayLinkedList.append(100);
 		oneWayLinkedList.display();
 	}
 
@@ -57,31 +56,31 @@ public class OneWayLinkedListTest {
 		oneWayLinkedList.display();
 		i ++;
 		System.out.println("-1 位置插入"+ i +"后");
-		System.out.println("插入结果："+ (oneWayLinkedList.insert(new ListNode<Integer>(i), -1)? "成功": "失败"));
+		System.out.println("插入结果："+ (oneWayLinkedList.insert(i, -1)? "成功": "失败"));
 		oneWayLinkedList.display();
 		System.out.println();
 
 		i ++;
 		System.out.println("0 位置插入"+ i +"后");
-		System.out.println("插入结果："+ (oneWayLinkedList.insert(new ListNode<Integer>(i), 0)? "成功": "失败"));
+		System.out.println("插入结果："+ (oneWayLinkedList.insert(i, 0)? "成功": "失败"));
 		oneWayLinkedList.display();
 		System.out.println();
 
 		i ++;
 		System.out.println(oneWayLinkedList.size()/2 + " 位置插入"+ i +"后");
-		System.out.println("插入结果："+ (oneWayLinkedList.insert(new ListNode<Integer>(i), oneWayLinkedList.size()/2)? "成功": "失败"));
+		System.out.println("插入结果："+ (oneWayLinkedList.insert(i, oneWayLinkedList.size()/2)? "成功": "失败"));
 		oneWayLinkedList.display();
 		System.out.println();
 
 		i ++;
 		System.out.println(oneWayLinkedList.size() + " 位置插入"+ i +"后");
-		System.out.println("插入结果："+ (oneWayLinkedList.insert(new ListNode<Integer>(i), oneWayLinkedList.size())? "成功": "失败"));
+		System.out.println("插入结果："+ (oneWayLinkedList.insert(i, oneWayLinkedList.size())? "成功": "失败"));
 		oneWayLinkedList.display();
 		System.out.println();
 
 		i ++;
 		System.out.println(oneWayLinkedList.size()*2 + " 位置插入"+ i +"后");
-		System.out.println("插入结果："+ (oneWayLinkedList.insert(new ListNode<Integer>(i), oneWayLinkedList.size()*2)? "成功": "失败"));
+		System.out.println("插入结果："+ (oneWayLinkedList.insert(i, oneWayLinkedList.size()*2)? "成功": "失败"));
 		oneWayLinkedList.display();
 	}
 
