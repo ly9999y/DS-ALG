@@ -15,13 +15,6 @@ public class OneWayLinkedList<T> {
 	final boolean FAIL = false;
 	final boolean SUCCESS = true;
 
-	public OneWayLinkedList() {
-	}
-
-	public OneWayLinkedList(ListNode<T> head) {
-		this.head = head;
-	}
-
 	/**
 	 * 获取指定位置元素
 	 * @param index
