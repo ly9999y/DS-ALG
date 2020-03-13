@@ -1,4 +1,4 @@
-package com.ly9999y.test.cll.v1;
+package com.ly9999y.test.lq.v1;
 
 /**
  * 链表结点
