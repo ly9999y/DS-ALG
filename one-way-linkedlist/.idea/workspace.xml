@@ -2,19 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="179d3216-a4d9-4bcf-87ec-043c4aac61f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../linked-queue/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../linked-queue/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../linked-queue/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../linked-queue/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../linked-queue/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../linked-queue/linked-queue.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../linked-queue/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../linked-queue/src/main/java/com/ly9999y/test/lq/v1/LinkedQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../linked-queue/src/main/java/com/ly9999y/test/lq/v1/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../linked-queue/src/test/java/com/ly9999y/test/lq/v1/LinkedQueueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../circular-linkedlist/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../circular-linkedlist/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../circular-linkedlist/src/main/java/com/ly9999y/test/cll/v1/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../circular-linkedlist/src/main/java/com/ly9999y/test/cll/v1/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doubly-linkedlist/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../doubly-linkedlist/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linked-stack/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linked-stack/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linked-stack/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linked-stack/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linked-stack/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linked-stack/linked-stack.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linked-stack/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linked-stack/src/main/java/com/ly9999y/test/ls/v1/LinkedStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linked-stack/src/main/java/com/ly9999y/test/ls/v1/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../linked-stack/src/test/java/com/ly9999y/test/ls/v1/LinkedStackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linked-queue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../linked-queue/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/ly9999y/test/owll/v1/OneWayLinkedListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="51" column="5" lean-forward="true" selection-start-line="48" selection-start-column="4" selection-end-line="51" selection-end-column="5" />
+            <state relative-caret-position="133">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#545#546#0" expanded="true" />
@@ -45,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ly9999y/test/owll/v1/OneWayLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1691">
-              <caret line="138" column="38" lean-forward="true" selection-start-line="138" selection-start-column="38" selection-end-line="138" selection-end-column="38" />
+              <caret line="138" column="38" selection-start-line="138" selection-start-column="38" selection-end-line="138" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -62,17 +60,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ly9999y/test/owll/v2/OneWayLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1482">
-              <caret line="78" column="43" selection-start-line="78" selection-start-column="43" selection-end-line="78" selection-end-column="43" />
+            <state relative-caret-position="190">
+              <caret line="91" column="39" lean-forward="true" selection-start-line="91" selection-start-column="39" selection-end-line="91" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/ly9999y/test/owll/v2/OneWayLinkedListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1672">
-              <caret line="93" column="29" selection-start-line="93" selection-start-column="29" selection-end-line="93" selection-end-column="29" />
+            <state relative-caret-position="24">
+              <caret line="46" selection-start-line="46" selection-end-line="50" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,8 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+            <state relative-caret-position="190">
+              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -243,7 +241,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584081428894" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584083770177" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
@@ -367,7 +365,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583981197496</updated>
       <workItem from="1583981202861" duration="15896000" />
-      <workItem from="1584071513006" duration="1915000" />
+      <workItem from="1584071513006" duration="3405000" />
     </task>
     <servers />
   </component>
@@ -404,7 +402,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17811000" />
+    <option name="totallyTimeSpent" value="19301000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="66" y="-6" width="1309" height="925" extended-state="6" />
@@ -457,30 +455,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ly9999y/test/owll/v2/OneWayLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1482">
-          <caret line="78" column="43" selection-start-line="78" selection-start-column="43" selection-end-line="78" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ly9999y/test/owll/v2/OneWayLinkedListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1672">
-          <caret line="93" column="29" selection-start-line="93" selection-start-column="29" selection-end-line="93" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ly9999y/test/owll/v1/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
@@ -491,18 +465,42 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ly9999y/test/owll/v1/OneWayLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1691">
-          <caret line="138" column="38" lean-forward="true" selection-start-line="138" selection-start-column="38" selection-end-line="138" selection-end-column="38" />
+          <caret line="138" column="38" selection-start-line="138" selection-start-column="38" selection-end-line="138" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ly9999y/test/owll/v1/OneWayLinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="51" column="5" lean-forward="true" selection-start-line="48" selection-start-column="4" selection-end-line="51" selection-end-column="5" />
+        <state relative-caret-position="133">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#545#546#0" expanded="true" />
             <element signature="e#578#579#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ly9999y/test/owll/v2/OneWayLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="91" column="39" lean-forward="true" selection-start-line="91" selection-start-column="39" selection-end-line="91" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ly9999y/test/owll/v2/OneWayLinkedListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="46" selection-start-line="46" selection-end-line="50" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
